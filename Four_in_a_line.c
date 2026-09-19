@@ -76,12 +76,12 @@ int play_game(){
             printf("Game Over!.Player 2 Wins");
             stop=1;
         }else{
-            perrorrintf("Error, Unknown Player type: %d !", disc);
+            printf("Error, Unknown Player type: %d !", disc);
 
         }
     
 
-    }while(stop !=1 && placed_disc < 25)
+    }while(stop !=1 && placed_discs < 25)
     if(stop=0){
         printf("Game Over! It's a tie");
 
